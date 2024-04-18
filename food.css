@@ -4,9 +4,9 @@
 }
 body{
     font-family: 'Roboto', sans-serif;
-}
+} 
 nav{
-    display:flex;
+    display: flex;
     align-items: center;
     justify-content: space-around;
     height: 80px;
@@ -40,7 +40,7 @@ ul li a{
     font-size: 25px;
 }
 .logo{
-    font-size: 28px;
+    font-size: 26px;
 }
 .main{
     display: flex;
@@ -49,7 +49,7 @@ ul li a{
 
 }
 .mainText{
-    margin-top: 22px;
+    margin-top: 44px;
 }
 .mainText h1{
     font-size: 65px;
@@ -70,16 +70,17 @@ ul li a{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+
 }
  
-.card{
+.card {
     width: 300px;
     margin-inline: 22px;
     margin-top: 22px;
-   
+    
 }
 .card img{
-    width: 100%;
+   width: 100%;
     height: 250px;
 }
 .card p{
@@ -90,6 +91,7 @@ ul li a{
     text-align: center;
     padding: 88px;
 }
+
 .gallery{
     display: flex;
     justify-content: center;
@@ -103,17 +105,17 @@ ul li a{
 }
 .blogs{
     display: flex;
-    flex-wrap:  wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 .blogs .blogCard{
     display: flex;
     width: 500px;
-  
+     
     padding: 20px;
     background-color: rgb(97, 97, 97);
     color: white;
-    
+     
     gap: 22px;
     margin-inline: 22px;
     margin-top: 11px;
@@ -125,7 +127,7 @@ ul li a{
     width: 300px;
 }
 .blogCard a{
-    padding: 5px;
+    padding: 5px 20px;
     background-color: orangered;
     color: white;
     text-decoration: none;
@@ -160,7 +162,7 @@ ul li a{
 .foodDetail button{
     margin-top: 22px;
     width: 100px;
-    height: 30px;
+    height:30px ;
     background-color: orange;
     color: white;
     font-size: 18px;
@@ -176,7 +178,18 @@ ul li a{
     width: 360px;
     height: 300px;
 }
-/* loading effect */
+
+
+
+
+
+
+
+
+
+
+
+ /* loading effect */
 .navLoad{
     width: 90%;
     margin: auto;
@@ -206,19 +219,20 @@ ul li a{
     margin-top: 41px;
 }
 
+
 @media screen and (max-width:1100px){
     .main{
         display: block;
         text-align: center;
     }
 }
-    
+
 @media screen and (max-width:750px){
     ul{
         display: none;
     }
 .icons{
-        display: none;
+    display: none;
 }
 #bar{
     display: block;
@@ -228,9 +242,10 @@ ul li a{
     text-align: center;
     width: 90%;
 }
-
+ 
 }
-    
+
+
 @media screen and (max-width:600px){
     .main h1{
         font-size: 33px;
@@ -245,10 +260,11 @@ ul li a{
         display: block;
         text-align: center;
     }
-    .blogCard img{
+     .blogCard img{
         width: 50%;
     }
     .foodDetail img{
         width: 90%;
     }
-}    
+}
+  
